@@ -1,0 +1,409 @@
+/* Base Selectors --------------------*/ 
+
+*{
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'DM Mono', monospace;
+}
+
+html {
+    background: rgb(242, 242, 242);
+}
+
+
+header {
+    background: rgb(242, 242, 242);
+}
+
+header img {
+    width: 60%;
+    margin: 2em;
+}
+
+header p {
+    margin-right: 3em;
+    margin-left: 3em;
+    background:rgb(242, 242, 242);
+}
+
+img {
+    width: 90%;
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+}
+
+h1 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 20px;
+}
+
+h3 {
+    text-transform: uppercase;
+    margin-top: 3em;
+    font-size: 15px;
+    background: white;
+    border-top: solid white 4em;
+}
+
+main {
+    background-color: white;
+}
+
+p {
+    margin-right: 3em;
+    margin-left: 3em;
+}
+
+.contact h3 {
+    background: rgb(242, 242, 242);
+    border-top: solid rgb(242, 242, 242) 5em;
+}
+
+footer p {
+    float: left; 
+    position: relative;
+    left: 2em;
+    margin-bottom: 3em;
+}
+
+footer .top {
+    float: left;
+    position: relative;
+    left: 2em;
+    margin-bottom: 3em;
+}
+
+/* Class Selectors --------------------*/
+
+.main-nav li {
+    list-style-type: none;
+    padding: 1em;
+    background: white;
+    margin: .8em;
+    text-transform: uppercase;
+}
+
+.marketing img {
+    margin-top: 2.5em;
+}
+
+.contact h3 {
+    margin-bottom: 2em;
+    background: rgb(242, 242, 242);
+    border-top: solid rgb(242, 242, 242) 2em;
+}
+
+.contact {
+    background: rgb(242, 242, 242);
+    margin-bottom: 2em;
+}
+
+.contact p {
+    background: rgb(242, 242, 242);
+    margin-bottom: .5em;
+}
+
+.bottom-nav {
+    display: none;
+}
+
+/* Pseudo Selectors --------------------*/
+
+a:link {
+    color: black;
+    font: normal;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media (min-width:768px) {
+
+/* Base Selectors --------------------*/   
+
+html {
+    margin-top: -2em;
+}
+
+header {
+    float: right;
+    margin: 0 auto;
+    padding: 0;
+    bottom: 2em;
+    position: relative;
+    width: 100%;
+}
+
+header p {
+    float: left;
+    margin-right: 20em;
+    bottom: 10em;
+    position: relative;
+}
+
+header img {
+    float: right;
+    width: 35%;
+    position: relative;
+}
+
+h1 {
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+
+main img {
+    position: relative;
+    top: 3em;
+}
+
+main {
+    width: 100%;
+    background: white;
+}
+
+html {
+    background: white;
+}
+
+footer {
+    position: relative;
+}
+
+/* Class Selectors --------------------*/
+
+.main-nav {
+    width: 45%;
+}
+
+.main-nav li {
+    display: inline-block;
+    width: 25%;
+    margin: 0 auto;
+    padding: 0;
+    background: rgb(242, 242, 242);
+}
+
+.marketing {
+    float: left;
+    width: 50%;
+    position: relative;
+    left: -.5em;
+}
+
+.search {
+    float: right;
+    width: 50%;
+    position: relative;
+    right: 2em;
+}
+
+.travel {
+    float: left;
+    width: 50%;
+    position: relative;
+    left: 1.2em;
+}
+
+.spots {
+    float: right;
+    width: 50%;
+    position: relative;
+    right: .5em;
+}
+
+.photos {
+    float: left;
+    width: 50%;
+    position: relative;
+    left: 1.2em;
+    top: 1.4em;
+}
+
+.calculator {
+    float: right;
+    width: 50%;
+    position: relative;
+    right: .5em;
+    top: 1.5em;
+}
+
+.column1 {
+    width: 100%;
+    margin-right: 2em;
+    margin-left: 2em;
+
+}
+
+.container {
+    margin-top: 100em;
+    padding: 0;
+}
+
+.mobile-bottom {
+    display: none;
+}
+
+.bottom-nav {
+    display: initial;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* ID Selectors --------------------*/
+
+#bottomhead {
+    float: left;
+    position: relative;
+    bottom: 2em;
+    left: 2em;
+}
+
+#bottomnav li {
+    float: left;
+    list-style-type: none;
+    position: relative;
+    width: 12%;
+    top: 2.5em;
+    left: 20em;
+}
+}
+
+/* Clearfix  --------------------*/
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media (min-width:1024px) {
+
+/* Base Selectors --------------------*/   
+
+main {
+    max-height: 2200px;
+}
+
+header {
+    margin-bottom: 5em;
+}
+
+header p {
+    float: left;
+    left: 3em;
+    bottom: 15em;
+    position: relative;
+    width: 40%;
+}
+
+header img {
+    float: right;
+    width: 40%;
+    position: relative;
+}
+main img {
+    position:relative;
+    top: 3em;
+}
+
+
+/* Class Selectors --------------------*/
+
+.title {
+    float: left;
+    position: relative;
+    left: 4em;
+}
+
+.main-nav ul li {
+    float: left;
+    top: 5em;
+    left: 27em;
+    position: relative;
+}
+
+.marketing {
+    float: left;
+    width: 30%;
+    position: relative;
+    left: 3em;
+}
+
+.search {
+    float: left;
+    width: 30%;
+    position: relative;
+    left: 2em;
+}
+
+.travel {
+    float: left;
+    width: 30%;
+    position: relative;
+    right: .5em;
+}
+
+.spots {
+    float: left;
+    width: 30%;
+    position: relative;
+    left: 5em;
+    top: 1.4em;
+}
+
+.photos {
+    float: left;
+    width: 30%;
+    position: relative;
+    left: 4em;
+}
+
+.calculator {
+    float: left;
+    width: 30%;
+    position: relative;
+    left: 3em;
+    top: 1.4em;
+}
+
+.container {
+    position: relative;
+    bottom: 30em;
+}
+
+.container p {
+    width: 40%;
+    position: relative;
+    left: 20em;
+
+}
+
+.bottom-nav {
+    position: relative;
+    bottom: 5em;
+    left: 15em;
+}
+
+/* ID Selectors --------------------*/
+
+#bottomhead {
+    position: relative;
+    right: 15em;
+    margin-bottom: -25em;
+}
+
+/* Clearfix  --------------------*/
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+}
